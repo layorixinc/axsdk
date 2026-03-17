@@ -80,7 +80,7 @@ extra:
       lang: ko
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/axsdk
+      link: https://github.com/layorixinc/axsdk-sdk-js
 
 nav:
   - 🏠 Introduction to Agentic UX: index.md
