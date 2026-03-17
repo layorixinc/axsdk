@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.axsdk.io/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/changelog/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/changelog/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/changelog/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/api/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/api/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/api/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/getting-started/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/getting-started/installation/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/getting-started/installation/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/getting-started/installation/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/getting-started/quickstart/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/getting-started/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/getting-started/quickstart/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/resources/live-demo/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/resources/live-demo/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/resources/live-demo/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/resources/website/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/resources/website/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/resources/website/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/changelog/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/changelog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/changelog/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/api/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/api/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/api/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/getting-started/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/getting-started/installation/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/getting-started/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/getting-started/installation/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/getting-started/quickstart/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/getting-started/quickstart/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/getting-started/quickstart/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/resources/live-demo/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/resources/live-demo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/resources/live-demo/"/>
+    </url>
+    <url>
+        <loc>https://docs.axsdk.io/ko/resources/website/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://docs.axsdk.io/ko/resources/website/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.axsdk.io/resources/website/"/>
+    </url>
+</urlset>

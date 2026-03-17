@@ -1,0 +1,4 @@
+/* Adjust submenu indentation to align with parent menu text (accounting for emojis) */
+.md-nav__item--nested > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+    padding-left: 1.1rem;
+}
