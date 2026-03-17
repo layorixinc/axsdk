@@ -1,7 +1,7 @@
 site_name: AXSDK Documentation
 site_description: AXSDK Official Documentation
 site_author: AXSDK Team
-site_url: https://docs.axsdk.io
+site_url: https://layorixinc.github.io/axsdk
 
 theme:
   name: material
@@ -92,4 +92,6 @@ nav:
     - Website: resources/website.md
     - Live Demo: resources/live-demo.md
   - 📖 API Reference: api/index.md
+  - 📚 Tutorials:
+    - Conversational Navigation: tutorials/conversational-navigation.md
   - 📝 Changelog: changelog.md
