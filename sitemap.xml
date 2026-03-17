@@ -57,6 +57,13 @@
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/resources/website/"/>
     </url>
     <url>
+        <loc>https://layorixinc.github.io/axsdk/tutorials/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/tutorials/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/tutorials/"/>
+    </url>
+    <url>
         <loc>https://layorixinc.github.io/axsdk/tutorials/conversational-navigation/</loc>
         <lastmod>2026-03-17</lastmod>
         <changefreq>daily</changefreq>
@@ -118,6 +125,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/resources/website/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/resources/website/"/>
+    </url>
+    <url>
+        <loc>https://layorixinc.github.io/axsdk/ko/tutorials/</loc>
+        <lastmod>2026-03-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/tutorials/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/tutorials/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/tutorials/conversational-navigation/</loc>
