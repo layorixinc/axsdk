@@ -20,7 +20,7 @@ Configure the following fields:
 | `enable authorization` | Toggle to activate App Authorization for this app. |
 
 !!! tip "Authorization Endpoint Security"
-    If your authorization endpoint requires additional protection (e.g., IP whitelisting), please [contact us](mailto:support@layorixinc.com) and we will assist with the configuration.
+    If your authorization endpoint requires additional protection (e.g., IP whitelisting), please [contact us](mailto:support@layorix.ai) and we will assist with the configuration.
 
 ---
 
