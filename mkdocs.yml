@@ -88,6 +88,8 @@ nav:
     - Overview: getting-started/index.md
     - Installation: getting-started/installation.md
     - Implementation Guide: getting-started/quickstart.md
+  - 🔒 AXSDK Core:
+    - App Authorization: core/authorization.md
   - 🌐 Resources:
     - Website: resources/website.md
     - Live Demo: resources/live-demo.md
