@@ -90,11 +90,11 @@ nav:
     - Implementation Guide: getting-started/quickstart.md
   - 🔒 AXSDK Core:
     - App Authorization: core/authorization.md
+  - 📚 Tutorials:
+    - Overview: tutorials/index.md
+    - Conversational Navigation: tutorials/conversational-navigation.md
   - 🌐 Resources:
     - Website: resources/website.md
     - Live Demo: resources/live-demo.md
   - 📖 API Reference: api/index.md
-  - 📚 Tutorials:
-    - Overview: tutorials/index.md
-    - Conversational Navigation: tutorials/conversational-navigation.md
   - 📝 Changelog: changelog.md
