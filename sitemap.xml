@@ -2,140 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://layorixinc.github.io/axsdk/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/changelog/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/changelog/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/changelog/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/api/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/api/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/api/"/>
     </url>
     <url>
+        <loc>https://layorixinc.github.io/axsdk/core/authorization/</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/core/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/core/authorization/"/>
+    </url>
+    <url>
         <loc>https://layorixinc.github.io/axsdk/getting-started/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/getting-started/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/getting-started/installation/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/getting-started/installation/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/getting-started/installation/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/getting-started/quickstart/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/getting-started/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/getting-started/quickstart/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/resources/live-demo/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/resources/live-demo/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/resources/live-demo/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/resources/website/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/resources/website/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/resources/website/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/tutorials/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/tutorials/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/tutorials/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/tutorials/conversational-navigation/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/tutorials/conversational-navigation/"/>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/tutorials/conversational-navigation/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/changelog/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/changelog/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/changelog/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/api/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/api/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/api/"/>
     </url>
     <url>
+        <loc>https://layorixinc.github.io/axsdk/ko/core/authorization/</loc>
+        <lastmod>2026-03-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/core/authorization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/core/authorization/"/>
+    </url>
+    <url>
         <loc>https://layorixinc.github.io/axsdk/ko/getting-started/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/getting-started/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/getting-started/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/getting-started/installation/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/getting-started/installation/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/getting-started/installation/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/getting-started/quickstart/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/getting-started/quickstart/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/getting-started/quickstart/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/resources/live-demo/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/resources/live-demo/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/resources/live-demo/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/resources/website/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/resources/website/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/resources/website/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/tutorials/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/tutorials/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/tutorials/"/>
     </url>
     <url>
         <loc>https://layorixinc.github.io/axsdk/ko/tutorials/conversational-navigation/</loc>
-        <lastmod>2026-03-17</lastmod>
+        <lastmod>2026-03-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ko" href="https://layorixinc.github.io/axsdk/ko/tutorials/conversational-navigation/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://layorixinc.github.io/axsdk/tutorials/conversational-navigation/"/>

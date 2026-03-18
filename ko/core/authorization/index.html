@@ -12,35 +12,35 @@
         <meta name="author" content="AXSDK Team">
       
       
-        <link rel="canonical" href="https://layorixinc.github.io/axsdk/ko/getting-started/">
+        <link rel="canonical" href="https://layorixinc.github.io/axsdk/ko/core/authorization/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../../getting-started/quickstart/">
       
       
-        <link rel="next" href="installation/">
+        <link rel="next" href="../../tutorials/">
       
       
         
-          <link rel="alternate" href="../../getting-started/" hreflang="en">
+          <link rel="alternate" href="../../../core/authorization/" hreflang="en">
         
           <link rel="alternate" href="./" hreflang="ko">
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
-        <title>Overview - AXSDK Documentation</title>
+        <title>App Authorization - AXSDK Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -59,9 +59,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#app-authorization" class="md-skip">
           콘텐츠로 이동
         </a>
       
@@ -102,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="상단/헤더">
-    <a href="../" title="AXSDK Documentation" class="md-header__button md-logo" aria-label="AXSDK Documentation" data-md-component="logo">
+    <a href="../../" title="AXSDK Documentation" class="md-header__button md-logo" aria-label="AXSDK Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Overview
+              App Authorization
             
           </span>
         </div>
@@ -169,7 +169,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../getting-started/" hreflang="en" class="md-select__link">
+            <a href="../../../core/authorization/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -254,7 +254,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="네비게이션" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../" title="AXSDK Documentation" class="md-nav__button md-logo" aria-label="AXSDK Documentation" data-md-component="logo">
+    <a href="../../" title="AXSDK Documentation" class="md-nav__button md-logo" aria-label="AXSDK Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -272,7 +272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
@@ -296,8 +296,6 @@
       
   
   
-    
-  
   
   
     
@@ -310,11 +308,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -335,7 +333,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -350,37 +348,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Overview
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
         
   
   
@@ -396,48 +367,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="목차">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      목차
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        사전 요구 사항
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        다음 단계
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -450,7 +379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="installation/" class="md-nav__link">
+      <a href="../../getting-started/installation/" class="md-nav__link">
         
   
   
@@ -478,7 +407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="quickstart/" class="md-nav__link">
+      <a href="../../getting-started/quickstart/" class="md-nav__link">
         
   
   
@@ -510,8 +439,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -522,11 +453,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -547,7 +478,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -562,10 +493,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../core/authorization/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    App Authorization
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -581,6 +539,92 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        개요
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        설정
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        클라이언트 설정
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        동작 방식
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        인가 엔드포인트 요구사항
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        요약
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -652,7 +696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tutorials/" class="md-nav__link">
+      <a href="../../tutorials/" class="md-nav__link">
         
   
   
@@ -680,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tutorials/conversational-navigation/" class="md-nav__link">
+      <a href="../../tutorials/conversational-navigation/" class="md-nav__link">
         
   
   
@@ -767,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../resources/website/" class="md-nav__link">
+      <a href="../../resources/website/" class="md-nav__link">
         
   
   
@@ -795,7 +839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../resources/live-demo/" class="md-nav__link">
+      <a href="../../resources/live-demo/" class="md-nav__link">
         
   
   
@@ -830,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api/" class="md-nav__link">
+      <a href="../../api/" class="md-nav__link">
         
   
   
@@ -857,7 +901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../changelog/" class="md-nav__link">
+      <a href="../../changelog/" class="md-nav__link">
         
   
   
@@ -904,10 +948,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        개요
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        사전 요구 사항
+        설정
       
     </span>
   </a>
@@ -918,7 +973,40 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        다음 단계
+        클라이언트 설정
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        동작 방식
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        인가 엔드포인트 요구사항
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        요약
       
     </span>
   </a>
@@ -950,7 +1038,7 @@
   
   
     <li class="md-path__item">
-      <a href="../" class="md-path__link">
+      <a href="../../" class="md-path__link">
         
   <span class="md-ellipsis">
     🏠 Introduction to Agentic UX
@@ -971,7 +1059,7 @@
         <a href="./" class="md-path__link">
           
   <span class="md-ellipsis">
-    🚀 Getting Started
+    🔒 AXSDK Core
   </span>
 
         </a>
@@ -990,18 +1078,106 @@
 
 
 
-<h1 id="_1">시작하기</h1>
-<p>AXSDK 시작 가이드에 오신 것을 환영합니다.</p>
-<h2 id="_2">사전 요구 사항</h2>
-<ul>
-<li>Node.js 20+</li>
-<li>npm, yarn, pnpm 또는 bun</li>
-</ul>
-<h2 id="_3">다음 단계</h2>
-<ul>
-<li><a href="installation/">설치</a></li>
-<li><a href="quickstart/">퀵스타트</a></li>
-</ul>
+<h1 id="app-authorization">앱 인가 (App Authorization)</h1>
+<h2 id="_1">개요</h2>
+<p>AXSDK를 사용하는 앱은 일반적으로 인터넷에 공개되어 있기 때문에, 자동화된 트래픽, 봇, 악의적인 사용에 노출될 수 있습니다. AXSDK는 기본적으로 <strong>속도 제한(rate limiting)</strong>을 적용하고 있지만, 이것만으로는 충분하지 않을 수 있습니다.</p>
+<p>더 강력한 보안을 위해 AXSDK는 <strong>앱 인가(App Authorization)</strong> 기능을 제공합니다. 이 기능을 통해 에이전트 세션 요청이 처리되기 전에 자체 백엔드에서 모든 요청을 검증할 수 있습니다.</p>
+<hr />
+<h2 id="_2">설정</h2>
+<p>앱 인가를 활성화하려면, AXSDK 웹 콘솔의 <strong>앱 설정(App Settings)</strong> 페이지로 이동하여 <strong>App Authorization</strong> 섹션을 찾으세요.</p>
+<p>다음 항목을 설정합니다:</p>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>authorization endpoint</code></td>
+<td>AXSDK가 각 요청을 인가할 때 호출할 백엔드 엔드포인트 URL입니다.</td>
+</tr>
+<tr>
+<td><code>enable authorization</code></td>
+<td>해당 앱에 대해 앱 인가를 활성화하는 토글입니다.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">인가 엔드포인트 보안</p>
+<p>인가 엔드포인트에 추가 보호가 필요한 경우 (예: IP 화이트리스팅), <a href="mailto:support@layorixinc.com">문의하기</a>를 통해 연락주시면 설정을 도와드리겠습니다.</p>
+</div>
+<hr />
+<h2 id="_3">클라이언트 설정</h2>
+<p>웹 콘솔에서 앱 인가를 구성한 후, 앱에서 <a href="https://github.com/layorixinc/axsdk-sdk-js"><code>AXSDK.setAppAuthToken()</code></a>을 호출하여 모든 요청에 함께 전송될 토큰을 설정합니다:</p>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">AXSDK</span><span class="p">.</span><span class="nx">setAppAuthToken</span><span class="p">(</span><span class="s2">&quot;your-app-auth-token&quot;</span><span class="p">);</span>
+</span></code></pre></div>
+<p>이 호출은 AXSDK를 통해 전송되는 <strong>모든 요청</strong>의 HTTP 헤더에 <code>x-app-authorization</code> 값을 설정합니다.</p>
+<hr />
+<h2 id="_4">동작 방식</h2>
+<p>다음 다이어그램은 인가 처리 흐름을 보여줍니다:</p>
+<pre class="mermaid"><code>sequenceDiagram
+    participant App as 앱
+    participant AXSDK_Server as AXSDK 서버
+    participant AuthEndpoint as 인가 엔드포인트
+
+    App-&gt;&gt;AXSDK_Server: 에이전트 세션 요청&lt;br/&gt;(x-app-authorization: your-app-auth-token)
+    AXSDK_Server-&gt;&gt;AuthEndpoint: GET /your-auth-endpoint&lt;br/&gt;(토큰 전달)
+    AuthEndpoint--&gt;&gt;AXSDK_Server: "OK" 반환
+    AXSDK_Server--&gt;&gt;App: 세션 승인 ✓</code></pre>
+<ol>
+<li>앱이 <code>x-app-authorization</code> 헤더와 함께 AXSDK를 통해 요청을 전송합니다.</li>
+<li>AXSDK 서버가 인가 토큰을 설정된 엔드포인트로 전달합니다.</li>
+<li>엔드포인트가 토큰을 검증하고 응답합니다.</li>
+<li>엔드포인트가 정확히 <code>OK</code>를 반환한 경우에만 AXSDK 서버가 요청을 처리합니다.</li>
+</ol>
+<hr />
+<h2 id="_5">인가 엔드포인트 요구사항</h2>
+<p>인가 엔드포인트는 다음 조건을 만족해야 합니다:</p>
+<div class="admonition success">
+<p class="admonition-title">성공 응답</p>
+<p>요청을 허용하려면 HTTP <code>200</code>으로 평문 문자열 <code>OK</code>를 반환해야 합니다.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>OK
+</span></code></pre></div>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">실패 응답</p>
+<p><code>OK</code> 이외의 응답이 반환되면 AXSDK 서버는 에이전트 세션 요청을 <strong>거부</strong>합니다.</p>
+</div>
+<p>엔드포인트에서는 API 키 검사, JWT 검증, IP 필터링, 세션 기반 검사 등 필요한 검증 로직을 자유롭게 구현할 수 있습니다.</p>
+<hr />
+<h2 id="_6">요약</h2>
+<table>
+<thead>
+<tr>
+<th>단계</th>
+<th>작업</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>웹 콘솔에서 <strong>앱 설정 → App Authorization</strong> 이동</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>authorization endpoint</code> URL 설정</td>
+</tr>
+<tr>
+<td>3</td>
+<td>인가 활성화</td>
+</tr>
+<tr>
+<td>4</td>
+<td>앱에서 <code>AXSDK.setAppAuthToken("your-app-auth-token")</code> 호출</td>
+</tr>
+<tr>
+<td>5</td>
+<td>엔드포인트에서 <code>OK</code> 반환 시 요청 허용</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1073,10 +1249,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.top", "navigation.path", "search.suggest", "search.highlight", "content.code.copy", "content.code.annotate", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
